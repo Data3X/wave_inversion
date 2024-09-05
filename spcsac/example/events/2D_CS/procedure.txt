@@ -1,0 +1,4 @@
+1. tish < file  &&  tipsv < file
+2. ./move.sh
+3. saveframe.py
+4. recover.sh

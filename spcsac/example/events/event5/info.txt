@@ -1,0 +1,16 @@
+#event lon
+115
+#event lat
+39
+#area left lon
+111.804
+#area right lon 
+118.804
+#area bottom lat
+36.634
+#area top lat
+42.634
+#Station number at X direction 
+61
+#Station number at Y direction
+46

@@ -1,0 +1,42 @@
+c parameter file for tipsv.f
+c
+c parameter for the periodic range
+   1280   40960   tlen(s), np
+c relative error (see GT95 eq. 6.2)
+   1.d-2   re	
+c ampratio using in grid cut-off (1.d-10 is recommended)
+   1.d-10   ratc	
+c ampratio using in l-cutoff
+   1.d-5    ratl
+c artificial damping for wrap-around (see GO94 5.1)
+   1.d-2   
+c parameter for the trial function
+c imin imax  
+    0  64     
+c parameter for the structure
+   4   nzone
+c  - Radius(km) -     --- Density (g/cm^3)---
+c                     ---   Vsv     (km/s) ---
+c                     ---   Vsh     (km/s) ---        - Qmu -  - Qkappa -
+   0      3351         5       0         0        0  
+                       4.4     0         0        0
+                       4.4     0         0        0  312.0
+   3351   3376         5       0         0        0  
+                       4.4 0 0 0
+                       4.4 0 0 0  312.0
+   3376   3388         5 0 0 0 
+                       3.4     0         0        0
+                       3.4     0         0        0  312.0
+   3388   3396         5       0       0        0
+                       2     0         0        0
+                       2     0         0        0   312.0
+c parameter for the source
+   3366   -4 172 r0(km), lat, lon (deg)
+   0.0 0.01 0.0 0.0 0.0 0.0   mt (Mrr, Mrt, Mrp, Mtt, Mtp, Mpp) (1.e25 dyne cm)
+c parameter for the station
+   1   nr
+     4 136 lat,lon (deg)
+c parameter for the data file
+result1/model1.SH.spc
+c
+end
